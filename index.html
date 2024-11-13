@@ -9,7 +9,10 @@
   <style>
     body {
       background-color: #f0f8ff;
-      background-image: url(https://img.freepik.com/free-vector/gradient-abstract-colorful-background_23-2149120346.jpg?t=st=1729215056~exp=1729218656~hmac=caa44167c3a8447ae2bf02c46c72676a93cda6fb1f548846edc487adf0eab6af&w=1380);
+      background-image:url(https://img.freepik.com/free-vector/gradient-abstract-background-with-different-shapes_23-2149110295.jpg?w=1380&t=st=1729235135~exp=1729235735~hmac=6b5029f7864decedd65a7b058937378060065b597f23aeaae88136ca174e7a60);
+      height: 100vh;
+      background-repeat: repeat-y;
+      background-size: cover;
     }
     .card {
       border: none;
@@ -31,64 +34,144 @@
     /* Warna-warna latar belakang yang berbeda untuk setiap kartu */
     .bg-color1 {
       background: linear-gradient(135deg, #ff7eb9, #ff65a3);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     }
     .bg-color2 {
       background: linear-gradient(135deg, #7afcff, #00bcd4);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     }
     .bg-color3 {
       background: linear-gradient(135deg, #ffcf56, #ffa34d);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    .bg-color4 {
+      background: linear-gradient(135deg, #7eff84, #7eff84);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    .bg-color5 {
+      background: linear-gradient(135deg, #b87aff, #b87aff);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    .bg-color6 {
+      background: linear-gradient(135deg, #ff5680, #ff5680);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    .bg-color7 {
+      background: linear-gradient(135deg, #2edbbe, #2edbbe);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     }
     .card img {
       object-fit: cover;
       height: 200px;
     }
+    .div.row{
+      justify-content: center;
+    } 
   </style>
 </head>
 <body>
 
   <div class="container py-5">
-    <h1 class="text-center mb-5">Anggota Kelompok</h1>
+    <h1 class="text-center mb-5 mp-5" style="background-color: #b5c6d6; border-radius: 20px; margin: 20px;">Selamat datang di Static Web Kelompok 1_2</h1>
+    <br>
+    <div>
+      <h2 class="text-center">Ketua Kelompok</h2>
+    <div class="row g-4  align-items-center justify-content-center">
+      <!-- Anggota 1 -->
+      <div class="col-md-4">
+            <div class="card bg-color1">
+                <a href="https://example.com/profil1" target="_blank">
+                  <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/constan2.jpg?raw=true" class="card-img-bottom " alt="Foto Anggota 1">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Constantine Kandowangko</h5>
+                  <p class="card-text">Dalam projek ini bertugas mengelola page HTML</p>
+                </div>
+              </div>
+      </div>
+    </div>
+    </div>
+    <br>
+    <h2 class="text-center">Anggota Kelompok</h2>
     <div class="row g-4">
 
       <!-- Anggota 1 -->
       <div class="col-md-4">
-            <div class="card bg-color1" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);">
+            <div class="card bg-color2" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);">
                 <a href="https://example.com/profil1" target="_blank">
-                  <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Foto Anggota 1">
+                  <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/fiqi2.jpg?raw=true" class="card-img-top" alt="Foto Anggota 1">
                 </a>
                 <div class="card-body text-center">
-                  <h5 class="card-title">Nama Anggota 1</h5>
-                  <p class="card-text">Deskripsi singkat anggota 1.</p>
+                  <h5 class="card-title">M. Fiqi Fahrudillah</h5>
+                  <p class="card-text">Dalam projek ini bertugas mengelola page HTML</p>
                 </div>
               </div>
       </div>
 
       <!-- Anggota 2 -->
       <div class="col-md-4">
-        <div class="card bg-color2" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
-          <a href="https://example.com/profil2" target="_blank">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Foto Anggota 2">
+        <div class="card bg-color3" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
+          <a href="https://example.com/profil1" target="_blank">
+            <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/andhi2.jpg?raw=true" class="card-img-top" alt="Foto Anggota 2">
           </a>
           <div class="card-body text-center">
-            <h5 class="card-title">Nama Anggota 2</h5>
-            <p class="card-text">Deskripsi singkat anggota 2.</p>
+            <h5 class="card-title">Andhi Muhammad Mustofa</h5>
+            <p class="card-text">Dalam projek ini bertugas mengelola page HTML</p>
           </div>
         </div>
       </div>
 
       <!-- Anggota 3 -->
       <div class="col-md-4">
-        <div class="card bg-color3" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
+        <div class="card bg-color4" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
           <a href="https://example.com/profil3" target="_blank">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Foto Anggota 3">
+            <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/oldi2.jpg?raw=true" class="card-img-top" alt="Foto Anggota 3">
           </a>
           <div class="card-body text-center">
-            <h5 class="card-title">Nama Anggota 3</h5>
-            <p class="card-text">Deskripsi singkat anggota 3.</p>
+            <h5 class="card-title">Meyn Coudy Riovan Kaotel</h5>
+            <p class="card-text">Dalam projek ini bertugas instalasi Nginx</p>
           </div>
         </div>
       </div>
 
+      <!-- Anggota 2 -->
+      <div class="col-md-4">
+        <div class="card bg-color5" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
+          <a href="https://example.com/profil2" target="_blank">
+            <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/fikri2.jpg?raw=true" class="card-img-top" alt="Foto Anggota 2">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title">Fikri Firmansyah</h5>
+            <p class="card-text">Dalam projek ini bertugas instalasi Instance</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Anggota 3 -->
+      <div class="col-md-4">
+        <div class="card bg-color6" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
+          <a href="https://example.com/profil3" target="_blank">
+            <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/claudia2.jpg?raw=true" class="card-img-top" alt="Foto Anggota 3">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title">Claudia Pither</h5>
+            <p class="card-text">Dalam projek ini bertugas Manajemen User & SSH key</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Anggota -->
+      <div class="col-md-4">
+        <div class="card bg-color7" style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);>
+          <a href="https://example.com/profil3" target="_blank">
+            <img src="https://github.com/SoraIroShiro/TugasShellScript/blob/main/profile%20pict/keisa.jpg?raw=true" class="card-img-top" alt="Foto Anggota 3">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title">Keiza Sasako</h5>
+            <p class="card-text">Dalam projek ini bertugas Manajemen User & SSH key</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
